@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name:  "
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:textSize="18dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name"
+            android:textColor="#303F9F"
+            android:textSize="18sp"
+            android:id="@+id/txt_name"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text="Subject:  "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="#303F9F"
+            android:id="@+id/txt_sub"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+
+            android:textSize="18sp"
+            android:text="Body: "/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_body"
+            android:textSize="18sp"
+            android:textColor="#303F9F"
+            android:padding="10dp"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        ></View>
+
+
+
+
+
+
+
+
+</LinearLayout>

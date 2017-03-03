@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Contract Name"
+            android:id="@+id/contract_name"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Tender notice no."
+            android:id="@+id/tender_noticeno"/>
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Awarded To"
+            android:id="@+id/awarded_to"
+            />
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Contract date"
+            android:id="@+id/contract_date"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Completion date"
+            android:id="@+id/completion_date"/>
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contract Amount"
+            android:textSize="20sp"
+            android:id="@+id/contract_amount"/>
+
+
+        <Button
+            android:layout_width="208dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:background="#FFFF00"
+            android:textColor="#303F9F"
+            android:textStyle="bold"
+            android:text="Forum"
+            android:textSize="26sp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="90dp"/>
+
+
+</LinearLayout>
